@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.add {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.add:hover {
+    background: #4cae4c;
+}
+
+.note {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.note-content {
+    font-size: 16px;
+}
+
+.delete {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+.delete:hover {
+    background: #c9302c;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.notes-container {
+  padding: 2rem;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.notes-container.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+input, textarea {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.note {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.notes-container.dark .note {
+  background: #2c2c2c;
+}
+
+.tag {
+  background: #e0e0e0;
+  color: #333;
+  border-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.notes-container.dark .tag {
+  background: #444;
+  color: #eee;
+}
+
+.search-input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  max-width: 300px;
+}
+.notes-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  color: #222;
+}
+
+.notes-container.dark {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.notes-container.dark input,
+.notes-container.dark textarea {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.notes-container.dark .note {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.notes-container.dark .tag {
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.notes-container.dark button {
+  background-color: #eee;
+  color: #111;
+}
